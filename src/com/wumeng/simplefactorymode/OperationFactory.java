@@ -1,5 +1,8 @@
 package com.wumeng.simplefactorymode;
 
+/**
+ * 操作的工厂类
+ */
 public class OperationFactory {
 
     public static Operation createOperation(char operator) {

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8eb5848-4815-40fc-b516-af04fe05d725" name="Default Changelist" comment="" />
+    <list default="true" id="a8eb5848-4815-40fc-b516-af04fe05d725" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wumeng/simplefactorymode/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wumeng/simplefactorymode/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wumeng/simplefactorymode/OperationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wumeng/simplefactorymode/OperationFactory.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,15 +20,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZyQkvt9cDMEu0tG1uh9z1Z0eo6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.Calculator">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -82,6 +94,7 @@
       <updated>1585809000563</updated>
       <workItem from="1585809004350" duration="3903000" />
       <workItem from="1585812959498" duration="22000" />
+      <workItem from="1585813002107" duration="1894000" />
     </task>
     <servers />
   </component>
@@ -93,6 +106,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585810327587" />
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1585815236485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585815236485" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1585814838821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585814838821" />
     <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1585812942378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -109,9 +130,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585812942378" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585813004449">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1585815059797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585813004449" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585815059797" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585815078161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585815078161" />
   </component>
 </project>
