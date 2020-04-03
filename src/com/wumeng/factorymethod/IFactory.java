@@ -7,6 +7,6 @@ import com.wumeng.simplefactorymode.Operation;
  */
 public interface IFactory {
 
-    public Operation createOperation();
+    Operation createOperation();
 
 }
