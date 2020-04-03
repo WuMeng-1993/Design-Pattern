@@ -9,10 +9,10 @@ public class Calculator {
         Operation operation;
         char operator;
 
-        operator = '+';
+        operator = '^';
         operation = OperationFactory.createOperation(operator);
         operation.numberA = 10;
-        operation.numberB = 100;
+        operation.numberB = 2;
 
         System.out.println(operation.result());
     }

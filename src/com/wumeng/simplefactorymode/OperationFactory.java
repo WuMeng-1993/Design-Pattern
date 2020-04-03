@@ -20,6 +20,9 @@ public class OperationFactory {
             case '/':
                 operation = new OperationDiv();
                 break;
+            case '^':
+                operation = new OperationPower();
+                break;
             default:
                 throw new RuntimeException("unsupported operation");
         }
