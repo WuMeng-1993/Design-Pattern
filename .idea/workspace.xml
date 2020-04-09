@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8eb5848-4815-40fc-b516-af04fe05d725" name="Default Changelist" comment="" />
+    <list default="true" id="a8eb5848-4815-40fc-b516-af04fe05d725" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +126,7 @@
       <workItem from="1585815076908" duration="5124000" />
       <workItem from="1585876199359" duration="5635000" />
       <workItem from="1585891446394" duration="5637000" />
-      <workItem from="1586394464698" duration="7570000" />
+      <workItem from="1586394464698" duration="9878000" />
     </task>
     <task id="LOCAL-00001" summary="添加部分注释">
       <created>1585815399592</created>
@@ -167,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586403342854</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改图片的大小">
+      <created>1586403415156</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586403415156</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,21 +190,26 @@
     <MESSAGE value="添加策略模式" />
     <MESSAGE value="添加简单工厂模式图" />
     <MESSAGE value="修改图片的插入方式以及大小" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改图片的插入方式以及大小" />
+    <MESSAGE value="修改图片的大小" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改图片的大小" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1586396724713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586396724713" />
+    <state x="739" y="404" width="441" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586409189667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="404" width="441" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1586409189667" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586400126606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586400126606" />
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1586403341304">
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1586403413870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586403341304" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586403413870" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1585904856532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -219,10 +234,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585815059797" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586403349353">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586403508954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586403349352" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586403508954" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586394591372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
