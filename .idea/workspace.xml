@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8eb5848-4815-40fc-b516-af04fe05d725" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/wumeng/strategypattern/CashContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wumeng/strategypattern/CashNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wumeng/strategypattern/CashRebate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wumeng/strategypattern/CashReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wumeng/strategypattern/CashSuper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wumeng/strategypattern/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wumeng/factorymethod/AddFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wumeng/factorymethod/AddFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wumeng/factorymethod/IFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wumeng/factorymethod/IFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,13 +39,26 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.FactoryClient">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wumeng.simplefactorymode.Calculator" />
       <module name="Design Pattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wumeng.simplefactorymode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wumeng.strategypattern.Client" />
+      <module name="Design Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wumeng.strategypattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,9 +93,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.FactoryClient" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.FactoryClient" />
         <item itemvalue="Application.Calculator" />
       </list>
@@ -110,7 +130,8 @@
       <workItem from="1585813002107" duration="1894000" />
       <workItem from="1585815076908" duration="5124000" />
       <workItem from="1585876199359" duration="5635000" />
-      <workItem from="1585891446394" duration="5007000" />
+      <workItem from="1585891446394" duration="5637000" />
+      <workItem from="1586394464698" duration="7075000" />
     </task>
     <task id="LOCAL-00001" summary="添加部分注释">
       <created>1585815399592</created>
@@ -126,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585882423880</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="微调">
+      <created>1585904872232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585904872232</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,48 +163,53 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加部分注释" />
     <MESSAGE value="1.增加工厂方法模式&#10;2.新增求次方的值运算" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.增加工厂方法模式&#10;2.新增求次方的值运算" />
+    <MESSAGE value="微调" />
+    <option name="LAST_COMMIT_MESSAGE" value="微调" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1585882108143">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1586396724713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585882108143" />
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1585882421054">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586396724713" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586400126606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585882421054" />
-    <state x="184" y="86" key="DiffContextDialog" timestamp="1585815385662">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586400126606" />
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1585904869682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585815385662" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1585888402020">
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585904869682" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1585904856532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585888402020" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1585888402020">
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585904856532" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1586397987885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585888402020" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1585888402020">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586397987885" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1586397987885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585888402020" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1585888402020">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586397987885" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1586397987884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585888402020" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586397987884" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1586397987885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586397987885" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1585815059797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585815059797" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585882431289">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585904880044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585882431289" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585891449411">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585904880044" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586394591372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585891449411" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586394591372" />
   </component>
 </project>
