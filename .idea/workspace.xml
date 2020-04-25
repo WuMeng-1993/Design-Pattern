@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8eb5848-4815-40fc-b516-af04fe05d725" name="Default Changelist" comment="添加装饰模式代码">
-      <change afterPath="$PROJECT_DIR$/src/com/wumeng/decoratorpattern/IOuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wumeng/decoratorpattern/ITrousers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wumeng/decoratorpattern/Jacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wumeng/decoratorpattern/Jean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wumeng/decoratorpattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wumeng/decoratorpattern/Pants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wumeng/decoratorpattern/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wumeng/decoratorpattern/Suit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wumeng/decoratorpattern/XiaoMing.java" afterDir="false" />
+    <list default="true" id="a8eb5848-4815-40fc-b516-af04fe05d725" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wumeng/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +146,8 @@
       <workItem from="1586417732234" duration="62000" />
       <workItem from="1586506126826" duration="2626000" />
       <workItem from="1587739536505" duration="1420000" />
-      <workItem from="1587786060349" duration="1744000" />
+      <workItem from="1587786060349" duration="2268000" />
+      <workItem from="1587826319612" duration="454000" />
     </task>
     <task id="LOCAL-00001" summary="添加部分注释">
       <created>1585815399592</created>
@@ -214,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586412186959</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加装饰模式代码">
+      <created>1587787824205</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587787824205</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +227,8 @@
     <MESSAGE value="修改图片的插入方式以及大小" />
     <MESSAGE value="修改图片的大小" />
     <MESSAGE value="增加策略模式图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加策略模式图片" />
+    <MESSAGE value="添加装饰模式代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加装饰模式代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1587739728889">
@@ -248,10 +247,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586400126606" />
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1587787569660">
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1587787821369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587787569660" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587787821369" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1585904856532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -260,33 +259,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="467" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586417792575" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1587787546590">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1587788329681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587787546590" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1587787546589">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587788329681" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1587788329681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587787546589" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1587787546589">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587788329681" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1587788329680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587787546589" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1587787546590">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587788329680" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1587788329681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587787546590" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587788329681" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1585815059797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585815059797" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586412195476">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587787832896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586412195476" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587786077407">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587787832896" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587826765654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587786077407" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587826765654" />
   </component>
 </project>
