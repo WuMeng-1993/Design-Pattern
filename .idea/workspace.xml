@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8eb5848-4815-40fc-b516-af04fe05d725" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/wumeng/ProxyPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wumeng/ProxyPattern/IGiveGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wumeng/ProxyPattern/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wumeng/ProxyPattern/Pursuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wumeng/ProxyPattern/SchoolGirl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +33,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -35,13 +41,26 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Client (1)">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wumeng.simplefactorymode.Calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.wumeng.SimpleFactoryMode.Calculator" />
       <module name="Design Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wumeng.simplefactorymode.*" />
+          <option name="PATTERN" value="com.wumeng.SimpleFactoryMode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wumeng.ProxyPattern.Client" />
+      <module name="Design Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wumeng.ProxyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,11 +69,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wumeng.strategypattern.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.wumeng.StrategyPattern.Client" />
       <module name="Design Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wumeng.strategypattern.*" />
+          <option name="PATTERN" value="com.wumeng.StrategyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,11 +82,11 @@
       </method>
     </configuration>
     <configuration name="FactoryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wumeng.factorymethod.FactoryClient" />
+      <option name="MAIN_CLASS_NAME" value="com.wumeng.FactoryMethod.FactoryClient" />
       <module name="Design Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wumeng.factorymethod.*" />
+          <option name="PATTERN" value="com.wumeng.FactoryMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,38 +94,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wumeng.decoratorpattern.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wumeng.DecoratorPattern.Main" />
       <module name="Design Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wumeng.decoratorpattern.*" />
+          <option name="PATTERN" value="com.wumeng.DecoratorPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.wumeng.Main" />
-      <module name="Design Pattern" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.FactoryClient" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.FactoryClient" />
@@ -147,7 +157,10 @@
       <workItem from="1586506126826" duration="2626000" />
       <workItem from="1587739536505" duration="1420000" />
       <workItem from="1587786060349" duration="2268000" />
-      <workItem from="1587826319612" duration="454000" />
+      <workItem from="1587826319612" duration="699000" />
+      <workItem from="1587999995846" duration="11000" />
+      <workItem from="1588327134496" duration="1218000" />
+      <workItem from="1588340462971" duration="2871000" />
     </task>
     <task id="LOCAL-00001" summary="添加部分注释">
       <created>1585815399592</created>
@@ -212,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587787824205</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加装饰模式UML图">
+      <created>1587826939679</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587826939679</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,17 +248,18 @@
     <MESSAGE value="修改图片的大小" />
     <MESSAGE value="增加策略模式图片" />
     <MESSAGE value="添加装饰模式代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加装饰模式代码" />
+    <MESSAGE value="添加装饰模式UML图" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加装饰模式UML图" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1587739728889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1587739728889" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1587787259711">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1588346262303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587787259711" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588346262303" />
     <state x="739" y="404" width="441" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586409189667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -247,10 +268,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586400126606" />
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1587787821369">
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1587826938036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587787821369" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587826938036" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1585904856532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -259,33 +280,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="467" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586417792575" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1587788329681">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1588346453840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587788329681" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1587788329681">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588346453840" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1588346453840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587788329681" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1587788329680">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588346453840" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1588346453839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587788329680" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1587788329681">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588346453839" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1588346453840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587788329681" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588346453840" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1585815059797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585815059797" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587787832896">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587826948903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587787832896" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587826765654">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587826948903" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1588340502271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587826765654" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588340502271" />
   </component>
 </project>
