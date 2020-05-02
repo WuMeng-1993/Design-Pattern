@@ -12,3 +12,7 @@
 ##### 3. 装饰模式
 
 <img src="https://upload-images.jianshu.io/upload_images/3532835-ba3023f929e42748.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="600" height="400" alt="装饰模式"/>
+
+##### 3. 代理模式
+
+<img src="https://upload-images.jianshu.io/upload_images/3532835-662f9745da26de08.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="600" height="400" alt="代理模式"/>
